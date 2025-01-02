@@ -40,5 +40,14 @@ python test_unpair.py
 ## Citation
 If you find the code helpful in your research or work, please cite the following paper:
 ```
+@ARTICLE{10718327,
+  author={Wang, Huake and Yan, Xiaoyang and Hou, Xingsong and Zhang, Kaibing and Dun, Yujie},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
+  title={Extracting Noise and Darkness: Low-Light Image Enhancement via Dual Prior Guidance}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TCSVT.2024.3480930}}
 
 ```
