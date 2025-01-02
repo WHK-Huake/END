@@ -1,0 +1,25 @@
+# Training configuration
+GPU: [0,1,2,3]
+
+VERBOSE: False
+
+MODEL:
+  MODE: 'LOL_END'      #Illum_YCRCB_Denoise_IN_w
+
+# Optimization arguments.
+OPTIM:
+  BATCH: 16
+  EPOCHS: 1000
+  # NEPOCH_DECAY: [10]
+  LR_INITIAL: 1e-4
+  LR_MIN: 1e-6
+  # BETA1: 0.9
+
+TRAINING:
+  VAL_AFTER_EVERY: 1
+  RESUME: False
+  TRAIN_PS: 128
+  VAL_PS: 256
+  TRAIN_DIR: 'G:\low-light_image_enhancement\Our\dataset\LOL\our485'       # path to training data
+  VAL_DIR: 'G:\low-light_image_enhancement\Our\dataset\LOL\eval15' # path to validation data
+  SAVE_DIR: 'checkpoints'           # path to save models_v1 and images
