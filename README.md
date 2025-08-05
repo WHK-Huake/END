@@ -44,10 +44,10 @@ If you find the code helpful in your research or work, please cite the following
   author={Wang, Huake and Yan, Xiaoyang and Hou, Xingsong and Zhang, Kaibing and Dun, Yujie},
   journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
   title={Extracting Noise and Darkness: Low-Light Image Enhancement via Dual Prior Guidance}, 
-  year={2024},
-  volume={},
-  number={},
-  pages={1-1},
+  year={2025},
+  volume={35},
+  number={2},
+  pages={1700--1714},
   doi={10.1109/TCSVT.2024.3480930}}
 
 ```
